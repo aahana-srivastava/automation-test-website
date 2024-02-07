@@ -112,7 +112,7 @@ public class asss {
 	WebElement checkout= wd.findElement(By.cssSelector("#page-34 > div > div.woocommerce > div > div > div > a"));
 	w.until(ExpectedConditions.elementToBeClickable(checkout));
 	checkout.click();
-	File excel=new File("D:\\sample website.xlsx"); 
+	File excel=new File("C:\Users\user\eclipse-workspace\automationproject\sample website.xlsx"); 
     FileInputStream fis=new FileInputStream(excel); 
        XSSFWorkbook book=new XSSFWorkbook(fis);
        XSSFSheet sheet=book.getSheet("Sheet1"); 
